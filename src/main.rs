@@ -111,7 +111,7 @@ enum Commands {
 
         #[structopt(
             long = "logon-command",
-            default_value = "cmd /c explorer C:\\Users\\WDAGUtilityAccount\\Desktop\\"
+            default_value = "cmd /c C:\\Users\\WDAGUtilityAccount\\Desktop\\tools\\init.bat"
         )]
         logon_command: String,
 
